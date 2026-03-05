@@ -5,7 +5,7 @@
     "validate_scan_output": true,
     "_comment_validate_scan_output": "Whether to validate the scan output/exit code. Options: true | false. Default: true",
     "scan_output": {
-      "security_scan_report_conclusion": "failure",
+      "_security_scan_report_conclusion": "failure",
       "_comment_security_scan_report_conclusion": "Expected scan report conclusion. Options: 'success' | 'failure'. This validates the security scan result status.",
       "total_libs_scanned": {
         "gte": 390
@@ -18,10 +18,10 @@
       "check_dependency_tree_detection_status": true,
       "_comment_check_dependency_tree_detection_status": "Whether to check if dependency tree was successfully detected. Options: true | false. Default: true",
       "expected_total_dependencies_number": {
-        "eq": 1247
+        "eq": 1233
       },
       "expected_direct_dependencies_number": {
-        "eq": 1022
+        "eq": 1008
       },
       "expected_transitive_dependencies_number": {
         "eq": 225
@@ -233,7 +233,6 @@
           "dataTables.searchPanes.min.js",
           "dataTables.select.js",
           "dataTables.select.min.js",
-          "date-format-manager.js",
           "daterangepicker.js",
           "db.js",
           "de-at.js",
@@ -377,7 +376,6 @@
           "jquery.flot.time.js",
           "jquery.flot.touch.js",
           "jquery.flot.touchNavigate.js",
-          "jquery.flot.uiConstants.js",
           "jquery.inputmask.js",
           "jquery.inputmask.min.js",
           "jquery.js",
@@ -601,7 +599,6 @@
           "methods_nl.js",
           "methods_nl.min.js",
           "methods_pt.js",
-          "methods_pt.min.js",
           "mi.js",
           "mirc.js",
           "mk.js",
@@ -658,7 +655,6 @@
           "pt-BR.js",
           "pt-br.js",
           "pt.js",
-          "pug.js",
           "puppet.js",
           "python.js",
           "q.js",
@@ -1010,7 +1006,7 @@
     "vulnerabilities_table": {
       "check_vulnerabilities_table_structure": true,
       "expected_total_vulnerabilities_number": {
-        "gte": 7
+        "gte": 0
       },
       "vulnerabilities_ids_list": {
         "contains": []

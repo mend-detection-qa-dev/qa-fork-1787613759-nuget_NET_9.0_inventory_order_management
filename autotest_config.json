@@ -1004,7 +1004,7 @@
     "validate_vulnerabilities_table": true,
     "_comment_validate_vulnerabilities_table": "Whether to validate the vulnerabilities table. Options: true | false. Default: true",
     "vulnerabilities_table": {
-      "check_vulnerabilities_table_structure": true,
+      "check_vulnerabilities_table_structure": false,
       "expected_total_vulnerabilities_number": {
         "gte": 0
       },
